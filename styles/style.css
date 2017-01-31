@@ -270,6 +270,6 @@ figure {
 
 @media (max-width: 480px) {
   .grid {
-    flex-direction column;
+    flex-direction: column;
   }
 }
