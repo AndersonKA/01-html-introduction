@@ -234,7 +234,7 @@ figure {
 }
 
 .quote__text::before {
-  content: '“'
+  content: '“';
   font: italic 400 1.4rem Cormorant, serif;
   color: #777;
 }
@@ -268,8 +268,11 @@ figure {
   margin: 0;
 }
 
-@media (max-width: 480px) {
-  .grid {
+@media {
+  max-width: 480px;
+  }
+
+.grid {
     flex-direction: column;
   }
 }
